@@ -1,0 +1,64 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /roger-exercise
+#hikari多数据源配置
+datasource:
+  master:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://47.101.141.121:3306/exercise?useSSL=false&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: fj656357
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      pool-name: pool-lxl1
+      maximum-pool-size: 50
+      minimum-idle: 10
+  slave1:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/troam?useSSL=true&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      pool-name: pool-lxl2
+      maximum-pool-size: 40
+      minimum-idle: 10
+
+spring:
+  #redis配置
+  redis:
+    #Redis数据库索引（默认为0）
+    database: 3
+    # Redis服务器地址
+    host: 47.101.141.121
+    # Redis服务器连接端口
+    port: 6379
+    # Redis服务器连接密码（默认为空）
+    password: 123456
+    # 连接超时时间（毫秒）
+    timeout: 10000
+    jedis:
+      pool:
+        #连接池最大连接数（使用负值表示没有限制）
+        max-active: 8
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1
+        # 连接池中的最大空闲连接
+        max-idle: 8
+        # 连接池中的最小空闲连接
+        min-idle: 0
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+
+
+logging:
+  path: ./log/
+  level:
+    com.roger.mapper: debug    # 打印sql
+#mybatis:
+#  type-aliases-package: com.roger.model
+#  config-location: classpath:mapping/*.xml

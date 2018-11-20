@@ -1,0 +1,181 @@
+2018-11-16 16:56:54.738 [main] INFO  com.roger.RogerExerciseApplication - Starting RogerExerciseApplication on DESKTOP-7PEP9MV with PID 6268 (D:\idea-workspace\roger-exercise\target\classes started by HP in D:\idea-workspace\roger-exercise)
+2018-11-16 16:56:54.740 [main] INFO  com.roger.RogerExerciseApplication - No active profile set, falling back to default profiles: default
+2018-11-16 16:56:55.158 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.roger.mapper.localhost]' package. Please check your configuration.
+2018-11-16 16:56:55.255 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 16:56:55.257 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 16:56:55.276 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2018-11-16 16:56:55.476 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$df8ac6cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:55.558 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:55.564 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration$$EnhancerBySpringCGLIB$$80c67862] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:55.591 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:55.599 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.roger.configuration.RedisConfig$$EnhancerBySpringCGLIB$$4a9e4133] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 16:56:55.863 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2018-11-16 16:56:55.870 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-16 16:56:55.872 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-16 16:56:55.873 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 16:56:55.877 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\software install\Java\jdk1.8.0_162\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\software install\Java\jdk1.8.0_162\bin;C:\software install\Git\cmd;C:\software install\TortoiseGit\bin;C:\software install\nodejs\;C:\software install\mysql-5.7.23-winx64\bin;D:\gradle-4.10.2\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;C:\software install\Microsoft VS Code\bin;.]
+2018-11-16 16:56:55.941 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/roger-exercise] - Initializing Spring embedded WebApplicationContext
+2018-11-16 16:56:55.941 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1177 ms
+2018-11-16 16:56:55.963 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-16 16:56:55.966 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 16:56:55.966 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 16:56:55.966 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 16:56:55.966 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 16:56:56.620 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 16:56:56.799 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 16:56:57.073 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-16 16:56:57.083 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-16 16:56:57.102 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-16 16:56:57.184 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-16 16:56:57.190 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-16 16:56:57.199 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path '/roger-exercise'
+2018-11-16 16:56:57.200 [main] INFO  com.roger.RogerExerciseApplication - Started RogerExerciseApplication in 2.794 seconds (JVM running for 3.18)
+2018-11-16 17:38:09.114 [main] INFO  com.roger.RogerExerciseApplication - Starting RogerExerciseApplication on DESKTOP-7PEP9MV with PID 15380 (D:\idea-workspace\roger-exercise\target\classes started by HP in D:\idea-workspace\roger-exercise)
+2018-11-16 17:38:09.116 [main] INFO  com.roger.RogerExerciseApplication - No active profile set, falling back to default profiles: default
+2018-11-16 17:38:09.617 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.roger.mapper.localhost]' package. Please check your configuration.
+2018-11-16 17:38:09.734 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:38:09.736 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 17:38:09.759 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2018-11-16 17:38:09.991 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b58f58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:38:10.087 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:38:10.094 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration$$EnhancerBySpringCGLIB$$a4f140ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:38:10.125 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:38:10.134 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.roger.configuration.RedisConfig$$EnhancerBySpringCGLIB$$6ec909be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:38:10.462 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2018-11-16 17:38:10.470 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-16 17:38:10.474 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-16 17:38:10.474 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 17:38:10.479 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\software install\Java\jdk1.8.0_162\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\software install\Java\jdk1.8.0_162\bin;C:\software install\Git\cmd;C:\software install\TortoiseGit\bin;C:\software install\nodejs\;C:\software install\mysql-5.7.23-winx64\bin;D:\gradle-4.10.2\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;C:\software install\Microsoft VS Code\bin;.]
+2018-11-16 17:38:10.548 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/roger-exercise] - Initializing Spring embedded WebApplicationContext
+2018-11-16 17:38:10.549 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1407 ms
+2018-11-16 17:38:10.574 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-16 17:38:10.577 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 17:38:10.577 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 17:38:10.577 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 17:38:10.578 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 17:38:11.355 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 17:38:11.539 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 17:38:11.868 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-16 17:38:11.880 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-16 17:38:11.904 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-16 17:38:12.003 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-16 17:38:12.009 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-16 17:38:12.020 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path '/roger-exercise'
+2018-11-16 17:38:12.022 [main] INFO  com.roger.RogerExerciseApplication - Started RogerExerciseApplication in 3.308 seconds (JVM running for 3.855)
+2018-11-16 17:40:36.212 [main] INFO  com.roger.RogerExerciseApplication - Starting RogerExerciseApplication on DESKTOP-7PEP9MV with PID 17528 (D:\idea-workspace\roger-exercise\target\classes started by HP in D:\idea-workspace\roger-exercise)
+2018-11-16 17:40:36.214 [main] INFO  com.roger.RogerExerciseApplication - No active profile set, falling back to default profiles: default
+2018-11-16 17:40:36.652 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.roger.mapper.localhost]' package. Please check your configuration.
+2018-11-16 17:40:36.751 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:40:36.753 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 17:40:36.774 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2018-11-16 17:40:36.996 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9de9b549] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:40:37.088 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:40:37.094 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration$$EnhancerBySpringCGLIB$$3f2566de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:40:37.126 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:40:37.135 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.roger.configuration.RedisConfig$$EnhancerBySpringCGLIB$$8fd2faf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:40:37.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2018-11-16 17:40:37.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-16 17:40:37.448 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-16 17:40:37.449 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 17:40:37.454 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\software install\Java\jdk1.8.0_162\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\software install\Java\jdk1.8.0_162\bin;C:\software install\Git\cmd;C:\software install\TortoiseGit\bin;C:\software install\nodejs\;C:\software install\mysql-5.7.23-winx64\bin;D:\gradle-4.10.2\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;C:\software install\Microsoft VS Code\bin;.]
+2018-11-16 17:40:37.525 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/roger-exercise] - Initializing Spring embedded WebApplicationContext
+2018-11-16 17:40:37.525 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1282 ms
+2018-11-16 17:40:37.550 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-16 17:40:37.554 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 17:40:37.554 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 17:40:37.554 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 17:40:37.554 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 17:40:38.304 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 17:40:38.487 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 17:40:38.821 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-16 17:40:38.833 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-16 17:40:38.855 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-16 17:40:38.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-16 17:40:38.960 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-16 17:40:38.970 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path '/roger-exercise'
+2018-11-16 17:40:38.973 [main] INFO  com.roger.RogerExerciseApplication - Started RogerExerciseApplication in 3.161 seconds (JVM running for 3.635)
+2018-11-16 17:41:00.976 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/roger-exercise] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 17:41:00.976 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-16 17:41:00.996 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2018-11-16 17:41:23.912 [main] INFO  com.roger.RogerExerciseApplication - Starting RogerExerciseApplication on DESKTOP-7PEP9MV with PID 16592 (D:\idea-workspace\roger-exercise\target\classes started by HP in D:\idea-workspace\roger-exercise)
+2018-11-16 17:41:23.915 [main] INFO  com.roger.RogerExerciseApplication - No active profile set, falling back to default profiles: default
+2018-11-16 17:41:24.413 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.roger.mapper.localhost]' package. Please check your configuration.
+2018-11-16 17:41:24.524 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-11-16 17:41:24.525 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-16 17:41:24.545 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2018-11-16 17:41:24.765 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$525f214] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:41:24.855 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:41:24.861 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration$$EnhancerBySpringCGLIB$$a661a3a9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:41:24.891 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:41:24.899 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.roger.configuration.RedisConfig$$EnhancerBySpringCGLIB$$70396c7a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-16 17:41:25.136 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2018-11-16 17:41:25.144 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2018-11-16 17:41:25.147 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-16 17:41:25.147 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-16 17:41:25.151 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\software install\Java\jdk1.8.0_162\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\software install\Java\jdk1.8.0_162\bin;C:\software install\Git\cmd;C:\software install\TortoiseGit\bin;C:\software install\nodejs\;C:\software install\mysql-5.7.23-winx64\bin;D:\gradle-4.10.2\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Roaming\npm;C:\software install\Microsoft VS Code\bin;.]
+2018-11-16 17:41:25.264 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/roger-exercise] - Initializing Spring embedded WebApplicationContext
+2018-11-16 17:41:25.264 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1278 ms
+2018-11-16 17:41:25.289 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-16 17:41:25.292 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-16 17:41:25.293 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-16 17:41:25.293 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-16 17:41:25.293 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-16 17:41:26.020 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-16 17:41:26.227 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-16 17:41:26.547 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-16 17:41:26.561 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-16 17:41:26.586 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-16 17:41:26.685 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2018-11-16 17:41:26.691 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-16 17:41:26.702 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path '/roger-exercise'
+2018-11-16 17:41:26.705 [main] INFO  com.roger.RogerExerciseApplication - Started RogerExerciseApplication in 3.183 seconds (JVM running for 3.648)
+2018-11-16 17:41:28.096 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/roger-exercise] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-16 17:41:28.096 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-16 17:41:28.103 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-11-16 17:41:33.338 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - URL : http://localhost:8001/roger-exercise/login/login
+2018-11-16 17:41:33.338 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - HTTP_METHOD : POST
+2018-11-16 17:41:33.338 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - HTTP_HEAD_ACCEPT : */*
+2018-11-16 17:41:33.338 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - HTTP_HEAD_CONTENTTYPE : application/json
+2018-11-16 17:41:33.338 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2018-11-16 17:41:33.344 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - CLASS_METHOD : com.roger.controller.LoginController.login
+2018-11-16 17:41:33.344 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - ARGS : [UserModel(id=null, email=790835227@qq.com, user_name=fangjian, name=方建, password=123, new_password=string, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室)]
+2018-11-16 17:41:33.347 [http-nio-8001-exec-1] INFO  com.roger.controller.LoginController - 进入getUsers方法，参数==》UserModel(id=null, email=790835227@qq.com, user_name=fangjian, name=方建, password=123, new_password=string, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室)
+2018-11-16 17:41:33.389 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - pool-lxl1 - Starting...
+2018-11-16 17:41:33.653 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - pool-lxl1 - Start completed.
+2018-11-16 17:41:33.657 [http-nio-8001-exec-1] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - ==>  Preparing: select * from user where status = "00" and email = ? and password = ? 
+2018-11-16 17:41:33.678 [http-nio-8001-exec-1] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - ==> Parameters: 790835227@qq.com(String), 202CB962AC59075B964B07152D234B70(String)
+2018-11-16 17:41:33.710 [http-nio-8001-exec-1] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - <==      Total: 1
+2018-11-16 17:41:33.821 [http-nio-8001-exec-1] INFO  com.roger.controller.LoginController - redis 返回 user ==>UserVo(id=7, email=790835227@qq.com, user_name=fangjian, name=方建, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室, status=00, create_time=2018-11-17 04:00:54.0)
+2018-11-16 17:42:20.021 [pool-lxl1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - pool-lxl1 - Thread starvation or clock leap detected (housekeeper delta=46s267ms216µs532ns).
+2018-11-16 17:42:20.021 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - RESPONSE : com.roger.utils.Result@1ef1473f
+2018-11-16 17:42:20.022 [http-nio-8001-exec-1] INFO  com.roger.aspect.WebLogAspect - SPEND TIME : 46684
+2018-11-16 17:42:22.742 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - URL : http://localhost:8001/roger-exercise/login/login
+2018-11-16 17:42:22.742 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - HTTP_METHOD : POST
+2018-11-16 17:42:22.743 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - HTTP_HEAD_ACCEPT : */*
+2018-11-16 17:42:22.743 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - HTTP_HEAD_CONTENTTYPE : application/json
+2018-11-16 17:42:22.743 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2018-11-16 17:42:22.743 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - CLASS_METHOD : com.roger.controller.LoginController.login
+2018-11-16 17:42:22.743 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - ARGS : [UserModel(id=null, email=790835227@qq.com, user_name=fangjian, name=方建, password=123, new_password=string, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室)]
+2018-11-16 17:42:22.743 [http-nio-8001-exec-4] INFO  com.roger.controller.LoginController - 进入getUsers方法，参数==》UserModel(id=null, email=790835227@qq.com, user_name=fangjian, name=方建, password=123, new_password=string, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室)
+2018-11-16 17:42:22.754 [http-nio-8001-exec-4] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - ==>  Preparing: select * from user where status = "00" and email = ? and password = ? 
+2018-11-16 17:42:22.755 [http-nio-8001-exec-4] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - ==> Parameters: 790835227@qq.com(String), 202CB962AC59075B964B07152D234B70(String)
+2018-11-16 17:42:22.765 [http-nio-8001-exec-4] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - <==      Total: 1
+2018-11-16 17:42:22.770 [http-nio-8001-exec-4] INFO  com.roger.controller.LoginController - redis 返回 user ==>UserVo(id=7, email=790835227@qq.com, user_name=fangjian, name=方建, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室, status=00, create_time=2018-11-17 04:00:54.0)
+2018-11-16 17:42:32.396 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - RESPONSE : com.roger.utils.Result@6ace12a0
+2018-11-16 17:42:32.396 [http-nio-8001-exec-4] INFO  com.roger.aspect.WebLogAspect - SPEND TIME : 9654
+2018-11-16 17:44:05.186 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - URL : http://localhost:8001/roger-exercise/login/login
+2018-11-16 17:44:05.186 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - HTTP_METHOD : POST
+2018-11-16 17:44:05.186 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - HTTP_HEAD_ACCEPT : */*
+2018-11-16 17:44:05.186 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - HTTP_HEAD_CONTENTTYPE : application/json
+2018-11-16 17:44:05.186 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2018-11-16 17:44:05.186 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - CLASS_METHOD : com.roger.controller.LoginController.login
+2018-11-16 17:44:05.186 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - ARGS : [UserModel(id=null, email=790835227@qq.com, user_name=fangjian, name=方建, password=123, new_password=string, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室)]
+2018-11-16 17:44:05.186 [http-nio-8001-exec-3] INFO  com.roger.controller.LoginController - 进入getUsers方法，参数==》UserModel(id=null, email=790835227@qq.com, user_name=fangjian, name=方建, password=123, new_password=string, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室)
+2018-11-16 17:44:05.200 [http-nio-8001-exec-3] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - ==>  Preparing: select * from user where status = "00" and email = ? and password = ? 
+2018-11-16 17:44:05.201 [http-nio-8001-exec-3] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - ==> Parameters: 790835227@qq.com(String), 202CB962AC59075B964B07152D234B70(String)
+2018-11-16 17:44:05.229 [http-nio-8001-exec-3] DEBUG c.r.m.primary.UserMapper.queryUserByEmailAndPasswd - <==      Total: 1
+2018-11-16 17:44:05.250 [http-nio-8001-exec-3] INFO  com.roger.controller.LoginController - redis 返回 user ==>UserVo(id=7, email=790835227@qq.com, user_name=fangjian, name=方建, phone=17755057545, address=上海市浦东新区周浦镇繁荣东路150弄繁荣馨苑8号楼201室, status=00, create_time=2018-11-17 04:00:54.0)
+2018-11-16 17:44:13.621 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - RESPONSE : com.roger.utils.Result@66134aa1
+2018-11-16 17:44:13.622 [http-nio-8001-exec-3] INFO  com.roger.aspect.WebLogAspect - SPEND TIME : 8436
+2018-11-19 08:58:32.497 [pool-lxl1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - pool-lxl1 - Thread starvation or clock leap detected (housekeeper delta=2d14h30m12s977ms467µs536ns).
+2018-11-19 12:19:48.075 [pool-lxl1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - pool-lxl1 - Thread starvation or clock leap detected (housekeeper delta=24m50s211ms515µs303ns).

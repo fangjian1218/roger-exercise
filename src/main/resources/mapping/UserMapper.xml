@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.roger.mapper.primary.UserMapper">
+    <!--<select id="getUsers" resultType="com.roger.model.UserModel ">-->
+    <!--SELECT * FROM user-->
+    <!--</select>-->
+    <!--<select id="getUserById" parameterType="java.lang.Integer" resultType="com.roger.model.UserModel ">-->
+    <!--select * from user where id = #{id}-->
+    <!--</select>-->
+    <select id="getUsers" resultType="com.roger.vo.UserVo">
+        select * from user where status = "00"
+    </select>
+    <insert id="insertUser" parameterType="com.roger.model.UserModel">
+        insert into user (email, user_name, name, phone, address) values (#{email}, #{user_name}, #{name}, #{phone}, #{address})
+    </insert>
+
+    <select id="queryUserByEmail" parameterType="com.roger.model.UserModel" resultType="com.roger.vo.UserVo">
+        select * from user where status = "00" and email = #{email}
+    </select>
+
+    <select id="queryUserByEmailAndPasswd" parameterType="com.roger.model.UserModel" resultType="com.roger.vo.UserVo">
+        select * from user where status = "00" and email = #{email} and password = #{password}
+    </select>
+
+    <update id="setPasswd" parameterType="com.roger.model.UserModel">
+        update user set password = #{new_password} where status = "00" and email = #{email}
+    </update>
+
+    <!--<insert id="insertUser" parameterType="com.roger.model.UserModel ">-->
+    <!--insert into user (id, name, password, phone, address, status) values (#{id}, #{name}, #{password}, #{phone}, #{address}, #{status})-->
+    <!--<selectKey keyProperty="id" resultType="java.lang.Integer" order="AFTER">-->
+    <!--select LAST_INSERT_ID() as id-->
+    <!--</selectKey>-->
+    <!--</insert>-->
+
+    <!--<update id="updateBatchUser" parameterType="java.util.List">-->
+    <!--update user-->
+    <!--<trim prefix="set" suffixOverrides=",">-->
+    <!--<trim prefix="name = case" suffix="end,">-->
+    <!--<foreach collection="list" item="item" index="index">-->
+    <!--<if test="item.name !=null and item.name != ''">-->
+    <!--when id=#{item.id} then #{item.name}-->
+    <!--</if>-->
+    <!--&lt;!&ndash;<if test="item.status == null or item.status == -1">&ndash;&gt;-->
+    <!--&lt;!&ndash;when id=#{item.id} then mydata_table.status//原数据&ndash;&gt;-->
+    <!--&lt;!&ndash;</if>&ndash;&gt;-->
+    <!--</foreach>-->
+    <!--</trim>-->
+    <!--</trim>-->
+    <!--where id in-->
+    <!--<foreach collection="list" index="index" item="item" separator="," open="(" close=")">-->
+    <!--#{item.id,jdbcType=BIGINT}-->
+    <!--</foreach>-->
+    <!--</update>-->
+
+    <!--<select id="queryBatchUser" parameterType="java.util.List" resultType="com.roger.model.UserModel">-->
+    <!--select * from user where id in-->
+    <!--<foreach collection="list" index="index" item="item" separator="," open="(" close=")">-->
+    <!--#{item.id,jdbcType=BIGINT}-->
+    <!--</foreach>-->
+    <!--</select>-->
+
+</mapper>
